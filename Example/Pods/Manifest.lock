@@ -1,0 +1,16 @@
+PODS:
+  - ZXRequestBlock (0.1.0)
+
+DEPENDENCIES:
+  - ZXRequestBlock (from `../`)
+
+EXTERNAL SOURCES:
+  ZXRequestBlock:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZXRequestBlock: e39182cc198a2f33fd77b21e133c94917ffc54ee
+
+PODFILE CHECKSUM: 8485f2bb968264291748f97420f59d04e26ee247
+
+COCOAPODS: 1.15.2

@@ -1,0 +1,6 @@
+framework module Pods_ZXRequestBlock_Example {
+  umbrella header "Pods-ZXRequestBlock_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

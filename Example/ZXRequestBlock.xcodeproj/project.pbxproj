@@ -40,7 +40,7 @@
 		1CBBB5739EA68542EE412E58 /* Pods-ZXRequestBlock_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXRequestBlock_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZXRequestBlock_Example/Pods-ZXRequestBlock_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2CACCB3208D27E6FACA7CDA6 /* Pods-ZXRequestBlock_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXRequestBlock_Example.release.xcconfig"; path = "Target Support Files/Pods-ZXRequestBlock_Example/Pods-ZXRequestBlock_Example.release.xcconfig"; sourceTree = "<group>"; };
 		308FBC11F50CFF2F893D717E /* Pods-ZXRequestBlock_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXRequestBlock_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZXRequestBlock_Tests/Pods-ZXRequestBlock_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		48E4ABC0C4CFA7666662BD31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		48E4ABC0C4CFA7666662BD31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C4904DD1DBDA8B7C111558B /* Pods-ZXRequestBlock_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXRequestBlock_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZXRequestBlock_Tests/Pods-ZXRequestBlock_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5611C78B3B2E2F152291F45C /* Pods_ZXRequestBlock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXRequestBlock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZXRequestBlock_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXRequestBlock_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,11 +62,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		67EF3E9F6CA6004269E247A6 /* ZXRequestBlock.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZXRequestBlock.podspec; path = ../ZXRequestBlock.podspec; sourceTree = "<group>"; };
+		67EF3E9F6CA6004269E247A6 /* ZXRequestBlock.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZXRequestBlock.podspec; path = ../ZXRequestBlock.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F3D5C17C27E5DFA3A34066A /* Pods_ZXRequestBlock_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXRequestBlock_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0CC3C0BC04A7F6EF8980E4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D0CC3C0BC04A7F6EF8980E4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				308FBC11F50CFF2F893D717E /* Pods-ZXRequestBlock_Tests.debug.xcconfig */,
 				4C4904DD1DBDA8B7C111558B /* Pods-ZXRequestBlock_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZXRequestBlock/ZXRequestBlock-Prefix.pch";
 				INFOPLIST_FILE = "ZXRequestBlock/ZXRequestBlock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZXRequestBlock/ZXRequestBlock-Prefix.pch";
 				INFOPLIST_FILE = "ZXRequestBlock/ZXRequestBlock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -538,6 +540,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -559,6 +562,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
